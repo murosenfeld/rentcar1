@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Rent Car One</title>
+
+        <link rel="stylesheet" type="text/css" media="all" href="css/niceforms-default.css" />
+        <script src="js/modernizr.custom.js"></script>	
+        <link rel="stylesheet" type="text/css" href="css/component.css" />		
+        <script type="text/javascript" src="js/jquery.cookie.js"></script> 
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="js/zebra_cookie.js"></script>
+        <script>
+		$(document).ready(function() {
+		var email =($.cookie.read('email'));
+		if (email === 'martin@gmail.com'){
+            $('#ver').show() && $('#ver2').show() && $('#edit').show() && $('#registrado').hide() && $('#service').hide() && $('.btn-sign').hide();
+        }});
+		</script>
+</head>
+
+<body onload="init()">
+	  <div id="content">
+	   <div class="main clearfix">
+                                <nav id="menu" class="nav">					
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">
+                                                <span class="icon">
+                                                    <i aria-hidden="true" class="icon-home"></i>
+                                                </span>
+                                                <span>Home</span>
+                                            </a>
+                                        </li>
+                                        <li id="service">
+                                            <a href="services.html">
+                                                <span class="icon"> 
+                                                    <i aria-hidden="true" class="icon-services"></i>
+                                                </span>
+                                                <span>Services</span>
+                                            </a>
+                                        </li>
+                                        <li id="registrado">
+                                            <a href="register.html">
+                                                <span class="icon">
+                                                    <i aria-hidden="true" class="icon-blog"></i>
+                                                </span>
+                                                <span>Register</span>
+                                            </a>
+                                        </li>
+                                        <li id="ver">
+                                            <a href="statistical.html">
+                                                <span class="icon">
+                                                    <i aria-hidden="true" class="icon-team"></i>
+                                                </span>
+                                                <span>statistical</span>
+                                            </a>
+                                        </li>
+                                       <li id="ver">
+                                            <a href="statisticalClient.html">
+                                                <span class="icon">
+                                                    <i aria-hidden="true" class="icon-team"></i>
+                                                </span>
+                                                <span>statistical by client</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="ContactForm/index.html">
+                                                <span class="icon">
+                                                    <i aria-hidden="true" class="icon-contact"></i>
+                                                </span>
+                                                <span>Contact</span>
+                                            </a>
+                                        </li>
+                                        <li id="edit">
+                                            <a href="editplace.html">
+                                                <span class="icon">
+                                                    <i aria-hidden="true" class="icon-team"></i>
+                                                </span>
+                                                <span>Edit Table</span>
+                                            </a>
+                                        </li>
+                                         <li id="edit">
+                                <a href="ordersbyClient.html">
+                                    <span class="icon">
+                                        <i aria-hidden="true" class="icon-team"></i>
+                                    </span>
+                                    <span>Orders by client</span>
+                                </a>
+                            </li>
+                                        <li id="edit">
+                                            <a href="branchOffice.html">
+                                                <span class="icon">
+                                                    <i aria-hidden="true" class="icon-team"></i>
+                                                </span>
+                                                <span>Branch Office</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+	   </div>
+  <img src="images/received.jpg" id="imagen"/></a>
+</body>
+</html>
