@@ -37,7 +37,8 @@ var r = Math.floor(Math.random()*256);
 
                     $.each(data, function(index, value) {
 
-                        items += " <tr><td>" + value[0].City + "</td><td>" + value[0].CountOClient + "</td></tr>";//.click(function(id){	 		   
+                        items += " <tr><td>" + value.City + "</td><td>" + value.CountOClient + "</td></tr>";//.click(function(id){	
+                        console.log(items);
                     });
                         
                     $("#chartData").css("color",hexColor);

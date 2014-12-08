@@ -28,7 +28,7 @@ var r = Math.floor(Math.random()*256);
             	}
             
             	var hexColor = "#" + hexR + hexG + hexB;
-            	console.log(hexColor);
+            
             
             
 				 
@@ -38,7 +38,7 @@ var r = Math.floor(Math.random()*256);
                     $.each(data, function(index, value) {
 
                         items += " <tr><td>" + value[0].NameCar + "</td><td>" + value[0].CountOfCars + "</td></tr>";//.click(function(id){	 		   
-                        console.log(items);
+                      
                     });
                         
                     $("#chartData").css("color",hexColor);
